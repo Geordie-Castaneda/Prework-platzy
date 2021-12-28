@@ -1,0 +1,21 @@
+/* Apliquele el color rojo a todas las etiquetas parrafo que sean más cercanas a h2 */
+/* hermano adyacente o cercano */
+h2 + p{
+    color: red;
+}
+
+/* hermano general */
+
+/* h2 ~ p{
+    color: red;
+} */
+
+
+/* la etiqueta parrafo que sea hija directa de la etiqueta div agregale este color azul */
+/* Combinador hijo directo */
+div > p{
+    color: blue;
+}
+
+
+

@@ -1,0 +1,19 @@
+/* tamaño imagenes  */
+
+.tamaño_imagen {
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+}
+
+/* formato del primer titulo */
+
+.ajuste_titulo{
+    font-size: 55px;
+}
+
+/* tamaño de los subtitulos */
+
+.ajuste_subtitulo{
+    font-size: 20px;
+}
