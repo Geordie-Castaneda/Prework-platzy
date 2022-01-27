@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+    /* font-family: 'Shizuru', cursive; */
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: cursive;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2C3E50;
+}
+.header-nav-list {
+    display: flex;
+    list-style: none;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+.header-nav-list a {
+    text-decoration: none;
+    color: white;
+
+}
+.header-nav-list li {
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+.header-img-container {
+    padding-left: 2rem;
+}
+
+.header-img-container img{
+    width: 4rem;
+}
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F1C40F; 
+    width: 100%;
+}
+.main-section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: center;
+}
+.main-article {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 1rem;
+    align-items: center;
+    width: 80%;
+}
+.bg-color-1 {
+    background-color: #5D6D7E;
+}
+.bg-color-2 {
+    background-color: #212F3C;
+}
+.bg-color-3 {
+    background-color: #212F3C;
+}.bg-color-4 {
+    background-color: #5D6D7E; 
+}
+.main-article-content {
+    width: 90%;
+    padding: 2rem;
+}
+.main-article-content h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 1.2rem;
+}
+.main-aticle-image {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+.main-aticle-image img {
+    width: 30rem;
+    height: 15rem;
+    border-radius: 5%;
+}
+.footer-container {
+    background-color: #5B2C6F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0.4rem;
+}
+.footer-container h5{
+    color: white;
+}
+
+.footer-container div{
+    text-align: right;
+    color: white;
+    margin-left: 20rem;
+    /* margin-top: 20rem; */
+}
+
+.footer-container-image img {
+    width: 2.5rem;
+    border-radius: 5%;
+    align-items: right;
+}
+
